@@ -1,0 +1,64 @@
+[
+	{
+		"name": "Kremlin",
+		"uniqueTo": "Russian Soviet Republice",
+		"replaces": "Bomb Shelter",
+		"isNationalWonder": true,
+		"food": 2,
+		"production": 3,
+		"cityStrength": 5,
+		"cityHealth": 100,
+		"science": 3,
+		"gold": 1,
+		"culture": 1,
+		"cost": 1,
+		"uniques": ["Indicates the capital city",
+			"Provides [5] [Uranium]",
+			"Provides [10] [Encrypted Data]",
+			"Provides [10] [Oil]",
+			"Provides [10] [Aluminum]"
+    ]
+	},
+//****************************************************************
+	{
+		"name": "Council of People's Commissars",
+		"replaces": "Congress",
+		"uniqueTo": "Russian Soviet Republice",
+		"cost": 300,
+		"requiredTech": "Civil Service",
+		"percentStatBonus": { "culture": 10 },
+		"percentStatBonus": { "science": 10 },
+		"uniques": [
+			"[+100]% Production when constructing [Biosphere Project] units [in all cities]", 
+			"[+100]% Production when constructing [Terraformer Part] units [in all cities]", 
+			"Can only be built [in capital]",
+			"Destroyed when the city is captured"
+		],
+		"quote": "СНК РСР образован 9 октября 2050 года в соответствии с Договором об образовании Российской СР 2049 года. Руководил народным хозяйством, просвещением, здравоохранением, организацией обороны страны, её внешними сношениями, принимал меры по осуществлению народно-хозяйственного плана и бюджета, обеспечению общественного порядка и т. д..",
+		"civilopediaText": [
+			{
+				"text": "СНК РСР образован 9 октября 2050 года в соответствии с Договором об образовании Российской СР 2049 года. Руководил народным хозяйством, просвещением, здравоохранением, организацией обороны страны, её внешними сношениями, принимал меры по осуществлению народно-хозяйственного плана и бюджета, обеспечению общественного порядка и т. д.."
+			}
+		]
+	},
+	{
+		"name": "The Stavka of the Supreme High Command",
+		"replaces": "Council",
+		"uniqueTo": "Russian Soviet Republice",
+		"cost": 300,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+50]% Production when constructing [Military] units [in all cities]", 
+    "[+20]% Strength <for [All] units>"
+			"Can only be built [in capital]",
+			"Only available <in cities with a [Council of People's Commissars]>", 
+			"Destroyed when the city is captured"
+		],
+		"quote": "Война ещё не законченна, и то, что мы живы - тому доказательство. Мы не можем проиграть! Мы доведём дело до конца!",
+		"civilopediaText": [
+			{
+				"text": "Война ещё не законченна, и то, что мы живы - тому доказательство. Мы не можем проиграть! Мы доведём дело до конца!"
+			}
+		]
+	}
+]

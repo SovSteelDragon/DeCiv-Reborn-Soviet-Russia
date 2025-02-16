@@ -1,0 +1,38 @@
+[
+	{
+		"name": "Russian Soviet Republice",
+		"leaderName": "Коммунстическо-патриотическая Партия России",
+		"adjective": ["советский"],
+		"startBias": ["Coast"],
+		"startIntroPart1": "Что несмешно, это Россия!",
+		
+		"declaringWar": "Сдавайтесь или мы утопим вас в крови!",
+		"attacked": "Остановитесь пока остановка не стала последней.",
+		"defeated": "Это не конец...",
+		"introduction": "Это разведка Красной Армии. Кто вы такие.",
+		
+		"neutralHello": "Добро пожаловать.",
+		"hateHello": "Мы пустим вас на шашлык!",
+		"tradeRequest": "Мы предлагаем Вам торговое соглашение.",
+
+		"outerColor": [255,0,0],
+		"innerColor": [255,255,0],
+		"uniqueName": "Воля народа",
+		"uniques": [
+    "Starts with [Collectivism] adopted", 
+	"Starts with [Rationalism] adopted", 
+	"Starts with [Sovereignty] adopted",
+	"[Land] units gain the [March] promotion",
+	"[Land] units gain the [Mobility] promotion",
+	"[Land] units gain the [Logistics] promotion",
+    "Resting point for Influence with City-States is increased by [1000] <for [Almaty]>",
+	"[-2 Science] [in all cities] <before discovering [Education]>"
+	"[+20]% [Culture] <after discovering [Education]>",
+    ],
+		"cities": ["Москва","Ленинград","Сталинград","Великий Новгород","Ульяновск","Ростов","Ярославль","Свердловск","Якутск","Владивосток","Смоленск","Оренбург",
+			"Красноярск","Хабаровск","Брянск","Калинин","Новосибирск","Магадан","Мурманск","Калининград","Иркутск","Чита","Куйбышев",
+			"Архангельск","Челябинск","Киров","Тобольск","Вологда","Омск","Астрахань","Курск","Саратов","Тула","Владимир","Пермь",
+			"Воронеж","Псков","Старая русса","Кострома","Горький","Суздаль","Молотов","Магнитогорск","Ворошилов",
+			"Чкалов","Советск"]
+	}
+]
